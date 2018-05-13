@@ -1,0 +1,57 @@
+<div0><head><hi rend="bold">Robot hakkab matemaatikat õpetama</hi></head>
+<p>
+<s><hi rend="bold">Kui robotist matemaatikatunnis praegu muud abi ei olegi, siis huvi selle õppeaine vastu suurendaks ta kindlasti.</hi></s>
+</p>
+<p>
+<s>28. märtsil tutvustas TLÜ doktorant Janika Leoste haridusinnovatsiooni keskuse „Ideeaida juttudeˮ sarjas robotite kasutamise võimalusi matemaatika ja teiste õppeainete õpetamisel.</s>
+<s>Ta märkis, et maailmas on tehtud selle kohta juba palju katseid ja on selgunud, et mõnel puhul paranevad õpilaste aineteadmised, kuid teisel juhul hoopis keeleoskus, koostööharjumused või midagi muud.</s>
+<s>Peruus suurenes õpilaste huvi kõigi õppeainete vastu.</s>
+<s>Kui muidu kippusid sealsed lapsed koolist palju puuduma, siis pärast robotite kasutamist ainetundides jäi puudujaid väga väheks.</s>
+<s>„Huvi kooli vastu suurendab robotite kasutamine kindlasti, seda näitavad kõik uuringud,ˮ kinnitas Janika Leoste.</s>
+</p>
+<div><head><hi rend="bold">Kehastatud kognitivism</hi></head>
+<p>
+<s>Leoste tutvustas robotite aineõppes kasutamisega seotud teooriaid.</s>
+<s>Üks neist on kehastatud kognitivism (embodied cognitivism), mille järgi õppija kasutab õppides kogu oma keha, mitte ainult aju.</s>
+<s>Kõige lihtsam näide keha kasutamisest on sõrmede abil loendamine ja arvutamine.</s>
+<s>Küsimus on siin selles, kui palju laps õpib intuitiivselt ja kui palju kõike üksikasjadeni läbi mõeldes.</s>
+<s>Kui laps joonistab suvalise ristküliku, kui palju ta siis seejuures arvutab?</s>
+<s>Tavaliselt üldse mitte.</s>
+<s>Kui ta laseb aga ristküliku joonistada robotil, on tal vaja välja arvutada, mitu sekundit peab robot igas suunas liikuma, mitu kraadi peab ta iga kord pöörama, et tema teekonnast tekiks ristkülik.</s>
+<s>Loogilist mõtlemist on palju.</s>
+<s>Lisaks veel emotsioonid!</s>
+<s>Kui robot hakkab mööda ristkülikut sõitma, siis elab õpilane sellele kaasa nagu spordivõistlusel.</s>
+<s>Kuid emotsionaalselt omandatud teadmised on väga püsivad.</s>
+</p>
+<p>
+<s>Praegu teeb Janika Leoste kuues koolis robotite aineõppes kasutamise katseid (viies 3. ja viies 6. klassis).</s>
+<s>Paralleelklassid on kontrollklassideks, kus roboteid ei kasutata.</s>
+<s>Selgunud on, et kontrolltööde tulemused on paremad, kui õpitud teemat on robotitega kinnistatud.</s>
+<s>Kas robotid aitavad ka uut teemat omandada, selle kohta veel andmed puuduvad, kuid Leoste usub, et õpetajad mõtlevad nagunii varsti välja, kuidas robot ka uut osa õpetama panna.</s>
+</p>
+<p>
+<s>„Praegu robot veel ei õpeta, pigem õpetab õpilane robotit õigesti tegutsema,ˮ tõdeb Leoste.</s>
+<s>Ta võrdleb roboti kasutamist aineõppes katsete tegemisega füüsikas või keemias.</s>
+<s>Nii nagu füüsikas või keemias ei anna katsed sajaprotsendiliselt õiget vastust, nii ei anna ka robot, sest ta sõidab etteantud vahemaa läbi etteantust erineva ajaga – rehvid võivad olla kulunud, põrand tolmune või künklik, aku pinge ettenähust nõrgem jne.</s>
+<s>Robot tegutseb reaalses maailmas, samal ajal kui matemaatika on ideaalne maailm, kus kõik klapib ülimalt täpselt.</s>
+</p>
+<p>
+<s>„Kuidas matemaatikaõpetaja seda talub, et robotiga ei saa õpilased täpseid vastuseid?ˮ küsib Janika Leoste.</s>
+<s>Ilmselt väga hästi ei talugi.</s>
+<s>Kuid roboteid programmeerides mõtleb õpilane läbi matemaatika põhimõttelisi küsimusi ja seda hindavad õpetajad kõrgelt.</s>
+</p>
+<p>
+<s>„Kuna robotid on kõikjal meie ümber ja neid tuleb aina juurde, siis me lihtsalt peame katsetama ja uurima, kuidas robotite abil õppimist ja õpetamist tõhusamaks ja kergemaks muuta,ˮ toonitab Leoste.</s>
+</p>
+<p>
+<s>HIK-i ideeaida koolituse teises pooles programmeerisid õpetajad ise roboteid (Edison, Lego EV3), nii et need piki ristküliku külgi ja ka mööda looklevat joont liiguksid.</s>
+<s>Midagi keerulist seal polnud.</s>
+<s>Robot ühendati tahvelarvutiga ja tahvli ekraanil olid robotile antavad käsud piltidena.</s>
+<s>Õpetajad leidsid, et programmeerimine on justkui pesumasinale juhiste andmisega, sest pesumasinalgi on iga nupu juures pilt selle kohta, mida see nupp teeb.</s>
+<s>Roboti puhul oli vaja analoogilised pildid lihtsalt sõrmega õigesse järjekorda lohistada ja stardinuppu vajutada.</s>
+</p>
+<p>
+<s>Õpetajaid oli ideeaita programmeerimist õppima tulnud mitte ainult Tallinnast, vaid ka Pärnust, Audrust, Laulasmaalt, Põltsamaalt ja kõik said kaasa ka roboti abil õpetamise tunnikavasid.</s>
+</p>
+</div>
+</div0>

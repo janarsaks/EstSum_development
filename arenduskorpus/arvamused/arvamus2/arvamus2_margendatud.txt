@@ -1,0 +1,51 @@
+<div0><head><hi rend="bold">Ma oskan matemaatikat 32 punkti …</hi></head>
+<p>
+<s>2014. aastal toimus õpitulemuste välishindamises mitu asja.</s>
+<s>Õpilaste ja koolide tähelepanu püüdis ennekõike muutus gümnaasiumi riigieksamites, kus kadus võimalus teha valikeksameid ning rakendus kolme kohustusliku eksami sooritamise nõue.</s>
+<s>Ent samal aastal kinnitas valitsus ka Eesti elukestva õppe strateegia ning haridus- ja teadusministeeriumis kinnitati välishindamise kontseptsioon aastani 2020.</s>
+<s>Riigi juhitud pikaajaliste uuenduste puhul on pigem tavaline, et samas kui ühe põlvkonna muudatuste rakendamine on jõudmas lõpule, on juba algamas või alanud järgmise muudatuste perekonna ettevalmistused.</s>
+<s>Elukestva õppe strateegia on kahtlemata hästi mitmekülgne vaade vajalikele haridusuuendustele, mis käsitleb tervikuna mitmeid õppekorralduse ja metoodika tahke, sh hindamist.</s>
+</p>
+<p>
+<s>Nii nagu strateegia teisteski valdkondades, ei ole hindamise puhul küsimus selles, et välja oleks tuldud ennekuulmatu uudse teadmisega, vaid kavatsuses koolides süstemaatiliselt rakendada tõenduspõhiselt efektiivseid lahendusi.</s>
+<s>Hindamise puhul on üldine rõhuasetus õppimise pidev toetamine ja motiveerimine, mis põhineb õpitulemuste järjepideval hindamisel, mille tulemusi <hi rend="italic">kasutatakse õppimisvajaduste selgitamiseks ja edasise õppe planeerimiseks</hi>.</s>
+<s>Tunneme sellist hindamismetoodilist lähenemist kujundava või õppimist toetava hindamise nimetuste all.</s>
+<s>See on sisuline lahendus õppe individualiseerimiseks, mis aitab õppetöö hoida õpilase jaoks asjakohase ja huvitavana.</s>
+<s>N-ö hinde panemise roll taandub siin õpilase puhul õppimise teadvustamiseks antava tagasiside ja enda õppimise kavandamisel osalemise ees.</s>
+<s>Õpetaja jaoks aga muutub aktuaalseks saadav sisend, mille põhjal otsustada, kuidas tänaseid teadmisi-oskusi arvestades just seda õpilast edasi (teinekord ka siis <hi rend="italic">järele</hi>) aidata.</s>
+</p>
+<p>
+<s>Mõeldes, et hindamine tähendab sisulist viisi õppimist analüüsida ja toetada, saab edasi küsida, kuidas riiklik õpitulemuste mõõtmine saab selles oma panuse anda.</s>
+<s>Erilist tähelepanu saab siin pöörata tasemetöödele, mis laiemas vaates toimuvad põhikoolides õppeprotsessi kestel ja saavad anda õpilastele ja õpetajatele väärtuslikku tagasisidet, kuhu hindamise ajaks on jõutud.</s>
+<s>Tundub, et tasemetöödel on endiselt küljes testide kuvand, mis peavad näitama, kas keegi on õppimise või õpetamisega ikka hästi hakkama saanud.</s>
+<s>Praktikas on need testid juba tükk aega koolile suunatud seire vahendid, millel on küll ka riiklik mõõde: testitakse valimit, et hinnata nii õpilaskonna aineteadmiste ja -oskuste taset kui ka selle varieerumist.</s>
+<s>Tasemetööde hindamise tulemused ei ole kasutusel koolide tulemuslikkuse näitajatena (erinevalt eksamitulemustest) ning nende alusel koole ei hinnata.</s>
+<s>Koolid saavad testimistel osaleda ka omal soovil ning tulemused annavad tagasisidet nii õpilaste erinevuste kohta kui ka näitavad õpetajatele, kus asetsevad nende õpilaste tulemused võrreldes valimi üldiste tulemustega.</s>
+<s>Hea meel on näha, et paljud koolid seda võimalust kasutavad.</s>
+<s>Seega on nende testide sisukas roll liikunud suuresti kooli tasemele ja pakub lisaks õpilaste toimetulekule aines tagasisidet ka õppetöö edendamiseks kohapeal.</s>
+</p>
+<p>
+<s>Tänased tasemetööd on mõeldud ainetundmise mõõtmiseks n-ö õpilase ühe omadusena ning tagasisideks on testi punktisumma.</s>
+<s>Õppekavast tehtud õpitulemuste väljavõtte alusel koostatud ülesannete lahendamisel kogutud punktid lubavad usaldusväärselt järeldada, et teatud õpilased oskavad ainet paremini ja teiste teadmised on napimad.</s>
+<s>Olgu siis minu matemaatika vm aine tulemus 32 või mõni teine arv punkte.</s>
+<s>Tasemetöö ei ole ju väravavalvur, kelle ülesanne on leida need, keda sobib edasi lasta – edasi lähevad kõik, jätkavad õppimist.</s>
+<s>Mida saavad siis sellised punktid sisuliselt kas senise õppimise ja edasiseks vajaliku valmisoleku kohta öelda?</s>
+<s>Arvestades koolides hindamisele seatud ülesannet, on ilmselt tähtis hoopis see, et tulemused aitaksid mõista, kuidas õpilane saab aine eri osades ja eri tüüpi ülesannetega hakkama.</s>
+<s>Testimine peab sealjuures suutma märgata nii päris nõrkade kui ka väga heade tulemustega õpilasi.</s>
+<s>Võimalik, et vajame nii koolide kui ka riikliku seire jaoks senistest teistsuguseid teste, mis testi üldskoori või ka lävendi asemel või kõrval pakuksid just sellist tagasisidet.</s>
+</p>
+<p>
+<s>Digipöörde programmi toel 2015. a alanud välishindamise testide uuendamine on võtnud seetõttu sihiks arendada aineteste, mille tulemused kirjeldaksid õpilaste ainetundmise profiili – millistes aine osades on õpilase teadmised-oskused tugevamad, millistes nõrgemad, ja tasemeid – kui nõudlikke ülesandeid õpilane lahendab.</s>
+<s>Testimismetoodiliselt on see raske ülesanne, sest taseme- ja eksamitööde koostamisel sellised kogemused seni puudusid.</s>
+<s>Siiski on koostöös valdkonna teadlastega jõutud esimeste tulemusteni: sel kevadel valmisid Tartu ülikooli eestvedamisel (professor M. Pedaste uurimisrühm) I ja II kooliastme loodusõpetuse testide prototüübid, mis võimaldavad hinnata loodusteadusliku kirjaoskuse kujunemise mõttes õpilaste tulemusi kuuel tasemel.</s>
+<s>Tagasiside õpilasele ja õpetajale esitatakse numbri asemel selgitusena, mida õpilane juba oskab teha ja milles esineb puudusi.</s>
+<s>Loodame, et sellist laadi riiklikult korraldatavad ainetestid on koolide tööks märksa asjakohasemad ning leiavad kasutamist kooskõlas muutuva õpikäsituse visiooniga, kus esmatähtis pole punktiskoor või hinne, vaid usaldusväärsed sisendid iga õpilase arengu toetamiseks.</s>
+</p>
+<p>
+<s>Keskendusin eelnevas testide – s. o praeguste tasemetööde – uuendamise sisulisele kavatsusele, kus riiklikus õpitulemuste seires kasutatavate kvantitatiivsete üldistuste kõrval näeme otsest vajadust pakkuda õpetajatele ja õpilastele senisest rohkem sisulist tagasisidet tulemuste kohta.</s>
+<s>Hindamisvahendite arendus hõlmab samas ka vormilist külge: e-hindamise rakendamist taseme- ja eksamitööde korraldamisel.</s>
+<s>E-hindamisele üleminek on samuti elukestva õppe strateegia üks sihte osana üldisest e-õppe kasutuselevõtust.</s>
+<s>Kuigi sisuküsimused võiksid olla arutelu esmased objektid, on tihti vorm see, mis tähelepanu köidab.</s>
+<s>Nii paistab see olevat ka e-hindamise puhul ning selleks on ka üksjagu põhjust.</s>
+</p>
+</div0>

@@ -1,0 +1,9 @@
+Perearstid ootavad riiklikku IT-šokki
+Perearstid ootavad tervise infosüsteemide põhjalikku ümberkorraldust, sest praegune süsteem on aeglane ja ebaturvaline.
+Tema hinnangul vajaks tervisevaldkonna riiklik IT-korraldus šokki – reaalset keskset tuhandete kasutajatega infosüsteemi.
+Arst-residendi sõnul tähendab lähteülesanne kõike ning seni on just lähteülesanne olnud «täiesti mööda, sest riigil on kombeks taandada end riiklike ülesannete lahendamisest ja peita oma pea sihtasutustesse».
+Mis puutub konkreetsemalt perearstidesse, siis riik ei ole neile seni ette öelnud, milliseid programme võiksid nad salajaste isikuandmete haldamiseks kasutada ning kus neid andmeid hoida.
+Sellises olukorras kasutatakse väga erineval tasemel andmete turvalisuse tagamise meetmeid.
+Näiteks Rapla perearstikeskuse perearst Kadri Luga ütles, et ka nende tööprogramm on Perearst2 ning programm koos andmetega asub perearstikeskuses olevas serveris.
+Perearstidele andmetöötlusprogrammi loova Medisofti juhi Jako Heinmetsa sõnul võib andmete liikumine Perearst2st Digilukku olla tõesti aeglane.
+Ülenimistuliste päringute võimaldamine Digiloost sõltub seadustest – kui lahendatakse juriidilised küsimused, siis saab hakata ka vastavaid teenuseid looma.

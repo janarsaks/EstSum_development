@@ -1,0 +1,59 @@
+<div0><head><hi rend="bold">Pärnus oli oma Robomadin</hi></head>
+<p>
+<s><hi rend="bold">Pärnus peeti reedel, 16. märtsil esmakordselt maakondlikku robootikavõistlust „Robomadin 2018”, korraldajaks Pärnu tehnoloogiahariduse selts.</hi></s>
+</p>
+<p>
+<s>Lisaks maakonna ja linna koolidele ning hariduskeskusele oli osalejaid kaugemaltki – Tartu Tamme kool ja Aruküla põhikool ning noortekeskus Märjamaalt.</s>
+<s>Kokku võistles 60 robotiga 92 osalejat 14 koolist ja klubist.</s>
+<s>Võistlusalad olid joonejärgimine (mBot, lego jm), sumo (lego ja mBot) ning VEX.</s>
+</p>
+<p>
+<s>Pea- ja VEX IQ võistluse kohtunik, Pärnu Mai ja Sütevaka koolis robootikat õpetav IT-spetsialist Hanno Saks rääkis, et Ameerikast pärit VEX IQ jõudis Eestisse 2015. aastal ning sealtpeale on hakanud pärnakad sellega tegelema ja Soomes võistlustel osalema.</s>
+<s>„Sügisel on Robotex, talve algul on Soome VEX meistrivõistlused ja kevadel Soome lahtised robootika meistrivõistlused,” rääkis Saks.</s>
+<s>Hanno Saks alustab oma ringides 4. klassi õpilastega, praegu on tema vanimad käealused 6. klassist.</s>
+</p>
+<p>
+<s>Jõõpre koolist osales Robomadinal neli 5. klassi tüdrukut, kellest Marleen Kärner viis koju 3. koha lego joonejärgimises.</s>
+<s>Jõõpre ja Audru kooli informaatikaõpetaja ja IT-tugi Sten Sang rääkis, et mõlemas koolis alustas robootikaring alles sel sügisel.</s>
+<s>Jõõpres on just tüdrukud püsima jäänud ja Audruski käib ringis rohkem tüdrukuid kui poisse.</s>
+<s>Jõõpre tüdrukud arvasid, et robootikaring on põnev, sest seal saab ehitada ja programmeerida huvitavaid asju, isegi koeri.</s>
+</p>
+<p>
+<s>Hanno Saksa juhendatavates ringides on tüdrukuid ja poisse pea võrdselt, kuid poisse langeb rohkem välja.</s>
+<s>„Poistel on vaja eduelamust. Nii kui tekivad tõrked, läheb raskeks, siis on Youtube ja mängud põnevamad,” rääkis Saks.</s>
+</p>
+<p>
+<s>„Nüüd on meil Pärnus oma Robomadin,” ütles pärast võitjate autasustamist päeva üks eestvedajaid, Pärnu tehnoloogiahariduse seltsi liige ning Ülejõe kooli mehhatroonika õpetaja Kalmer Kivi.</s>
+<s>Mehhatroonikat õpetatakse Ülejõe koolis alates 5. klassist ning Kivi on veendunud, et nüüdisaegse igapäevase tehnoloogia alal peaks tänapäeval iga laps juba koolis eluks ettevalmistuse saama.</s>
+<s>„IT-d peaks õpetama koolitunnis, mitte ainult huviringis,” arvas Kivi.</s>
+<s>Tema usub, et nii tuleks juurde tulevasi insenere.</s>
+</p>
+<p>
+<s>Üle aasta tegutsenud Pärnu tehnoloogiahariduse seltsil on mobiilse robootika klass tosina sülearvuti, roboti jm vajalikuga.</s>
+<s>Neid on lihtne paigaldada tavaklassiruumi, et läbi viia robootikatund, kus näiteks paari tunniga saab panna kokku roboti, mis joone järgi sõidab.</s>
+<s>Kuid seltsi senise tagasihoidliku tegutsemise põhjused on rahanappus ja juhendajate vähesus.</s>
+<s>Kivi lubas aga, et selts tegutseb nii kaua, kuni iga laps oskab robotiga tegeleda.</s>
+</p>
+<p>
+<s>Esimesel Pärnumaa võistlusel saavutasid kuus võidukat kohta Pärnu Koidula gümnaasiumi robootikud, neli võitu noppisid Märjamaa noored, kaks esikohta läks Sütevaka humanitaargümnaasiumile, ühe võiduga lõpetasid päeva Ülejõe, Pärnu-Jaagupi ja Aruküla põhikool, Jõõpre ja Pärnu Mai kool ning tehnoloogiahariduse selts.</s>
+<s>Autasustamisel lubasid korraldajad, et kindlasti tuleb ka „Robomadin 2019”.</s>
+</p>
+<div><head><hi rend="bold">Robotex tuli kaasa elama</hi></head>
+<p>
+<s>Robomadinale tulid kaasa elama ka Eestis toimuva maailma suurima robootikafestivali Robotex esindajad, kes toetasid nii esimese Robomadina korraldamist kui tulid ka talentidele silma peale panema.</s>
+</p>
+<p>
+<s>„Suur rõõm on näha selliseid omaalgatuslikke ettevõtmisi. Oleme seadnud eesmärgi olla toeks nii väiksematele kui suurematele tegutsejatele, et sarnaseid sündmuseid oleks üle Eesti veelgi rohkem,” ütles Robotexi projekti koordinaator Birgit Aljaste, lisades, et kuigi Robotex International on robootikute aasta tippsündmus, on oluline, et (noorte) võistlejate järjepideva arengu, robotite testimise ja eduelamuse saavutamiseks toimuks Robomadinaga sarnaseid sündmuseid aasta ringi.</s>
+</p>
+<p>
+<s>Samuti on aktuaalne puudu olevate info- ja kommunikatsioonitehnoloogia (IKT) spetsialistide arv, kellest eriti vähene on naiste osakaal.</s>
+<s>OSKA tööturu raporti järgi on Eesti tehnoloogia-valdkond meestekeskne: IKT-töötajatest vaid 29% on naised.</s>
+<s>Selle tendentsi parandamiseks on käima lükatud mitmeid, muuhulgas üleriigilisi kampaaniaid.</s>
+<s>Samuti plaanib sellesse oma panuse anda Robotex, kes soovib Robotex Internationalil välja töötada ainult tüdrukutele suunatud võistluse.</s>
+</p>
+<p>
+<s>„Tehnoloogia ei tohiks olla vaid ühe stereotüüpse grupi pärusmaa,” ütles Aljaste ja lisas, et võistlusega soovitakse tüdrukuid ja noori naisi innustada ning julgustada.</s>
+<s>„Seda enam oli väga rõõmustav näha, et Robomadinal toimunud kuuest võistlusest neli võitsid tüdrukud või tüdrukute meeskonnad. Selliselt jätkates võime loodetavasti peagi näha protsentuaalse tasakaalu positiivset muutust,” lõpetas Aljaste.</s>
+</p>
+</div>
+</div0>

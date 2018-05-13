@@ -1,0 +1,11 @@
+Robot hakkab matemaatikat õpetama
+28. märtsil tutvustas TLÜ doktorant Janika Leoste haridusinnovatsiooni keskuse „Ideeaida juttudeˮ sarjas robotite kasutamise võimalusi matemaatika ja teiste õppeainete õpetamisel.
+Kui muidu kippusid sealsed lapsed koolist palju puuduma, siis pärast robotite kasutamist ainetundides jäi puudujaid väga väheks.
+Leoste tutvustas robotite aineõppes kasutamisega seotud teooriaid.
+Üks neist on kehastatud kognitivism (embodied cognitivism), mille järgi õppija kasutab õppides kogu oma keha, mitte ainult aju.
+Selgunud on, et kontrolltööde tulemused on paremad, kui õpitud teemat on robotitega kinnistatud.
+Ta võrdleb roboti kasutamist aineõppes katsete tegemisega füüsikas või keemias.
+Kuid roboteid programmeerides mõtleb õpilane läbi matemaatika põhimõttelisi küsimusi ja seda hindavad õpetajad kõrgelt.
+HIK-i ideeaida koolituse teises pooles programmeerisid õpetajad ise roboteid (Edison, Lego EV3), nii et need piki ristküliku külgi ja ka mööda looklevat joont liiguksid.
+Roboti puhul oli vaja analoogilised pildid lihtsalt sõrmega õigesse järjekorda lohistada ja stardinuppu vajutada.
+Õpetajaid oli ideeaita programmeerimist õppima tulnud mitte ainult Tallinnast, vaid ka Pärnust, Audrust, Laulasmaalt, Põltsamaalt ja kõik said kaasa ka roboti abil õpetamise tunnikavasid.

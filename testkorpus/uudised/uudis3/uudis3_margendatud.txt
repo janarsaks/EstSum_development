@@ -1,0 +1,61 @@
+<div0><head><hi rend="bold">Perearstid ootavad riiklikku IT-šokki</hi></head>
+<p>
+<s><hi rend="bold">Perearstid ootavad tervise infosüsteemide põhjalikku ümberkorraldust, sest praegune süsteem on aeglane ja ebaturvaline.</hi></s>
+</p>
+<p>
+<s>«Praktiku jaoks on e-tervis üks suur mädakala. Sisuliselt on see dokumendiarhiiv, mitte aga infosüsteem. Retseptikeskus on ainuke reaalselt toimiv osa, sest võrreldes muu meditsiinilise infoga on retsept ise olnud väga lihtsakoeline ja juba enne digiajastut hästi struktureeritud asi,» leidis näiteks arst-resident Aivar Soomann.</s>
+</p>
+<p>
+<s>Tema hinnangul vajaks tervisevaldkonna riiklik IT-korraldus šokki – reaalset keskset tuhandete kasutajatega infosüsteemi.</s>
+</p>
+<p>
+<s>«Ikka on hunnik arendajaid, kes tegutsevad pimeduses, sest ei saa aru, mida neilt oodatakse. Ja siis on hunnik ametnikke, kes lõputult analüüsivad ja pole ikka veel midagi suutnud järeldada,» oli Soomann kriitiline.</s>
+</p>
+<p>
+<s>Arst-residendi sõnul tähendab lähteülesanne kõike ning seni on just lähteülesanne olnud «täiesti mööda, sest riigil on kombeks taandada end riiklike ülesannete lahendamisest ja peita oma pea sihtasutustesse».</s>
+<s>«See on liberaalse riigi tegemata töö tulemus,» arvas ta.</s>
+</p>
+<div><head><hi rend="bold">Perearst: IT väljub meie kompetentsist</hi></head>
+<p>
+<s>Mis puutub konkreetsemalt perearstidesse, siis riik ei ole neile seni ette öelnud, milliseid programme võiksid nad salajaste isikuandmete haldamiseks kasutada ning kus neid andmeid hoida.</s>
+<s>Valdavalt kasutavad perearstid ettevõtte Medisoft loodud programmi Perearst2 ja andmeid hoitakse perearstide endi hangitud serverites.</s>
+</p>
+<p>
+<s>Sellises olukorras kasutatakse väga erineval tasemel andmete turvalisuse tagamise meetmeid.</s>
+<s>Mis puutub programmidesse, siis valmistab arstidele peavalu info liikumine andmebaaside vahel.</s>
+</p>
+<p>
+<s>Näiteks Rapla perearstikeskuse perearst Kadri Luga ütles, et ka nende tööprogramm on Perearst2 ning programm koos andmetega asub perearstikeskuses olevas serveris.</s>
+<s>Tema sõnul tehakse neist andmetest regulaarselt koopiaid välisele andmekandjale, kuid arstid ise sellega ei tegele.</s>
+</p>
+<p>
+<s>«Tehniline pool väljub paratamatult perearstide kompetentsist, kuid meil on tegevuse algusest saadik olnud sama partner, kes meie IT-süsteeme jälgib ja meid oma valdkonna uuemate uudistega kursis hoiab,» rääkis Luga.</s>
+</p>
+<p>
+<s>Mis puutub andmete vahetamisse infosüsteemide vahel, siis saab Rapla perearsti sõnul riiklikku Digilukku saata epikriise ükshaaval või mitu korraga ning saatmine ei võta väga palju aega.</s>
+</p>
+<p>
+<s>«Rohkem aega võtab Digiloost vajalike andmete leidmine, kui patsient on juba vastuvõtul ning vastuvõtu käigus selgub, et ta on käinud mõnes teises asutuses uuringutel, arsti vastuvõtul või pöördunud mingil põhjusel EMOsse. Teistes raviasutustes käikude kohta eraldi teavet perearsti töölauale ei tule,» ütles perearst.</s>
+</p>
+</div>
+<div><head><hi rend="bold">Tarkvaraettevõte: mitu lahendust on seaduste taga</hi></head>
+<p>
+<s>Perearstidele andmetöötlusprogrammi loova Medisofti juhi Jako Heinmetsa sõnul võib andmete liikumine Perearst2st Digilukku olla tõesti aeglane.</s>
+</p>
+<p>
+<s>Protsessi alustamine ise aga keeruline pole.</s>
+<s>«Andmete automaatne liikumine on lahendatud nii, et päeva lõpus pakub Perearst2 arstile välja kõik lõpetatud ravilood, mida saata Digilukku. Saatmiseks tuleb arstil teha üks nupuvajutus, mille järel hakkab programm epikriise Digilukku edastama,» ütles Heinmets ja lisas, et epikriisi saab arst saata Digilukku ka kohe, kui lõpetab patsiendi raviloo.</s>
+</p>
+<p>
+<s>See, kas perearst võiks kohe hommikul näha oma nimistu patsientide visiite kiirabisse või eriarstide juurde, on Medisofti juhi sõnul juriidiline küsimus.</s>
+<s>«Täna pole olemas sellist võimalust (teenust), et perearst saaks teha koondpäringu kõikide nimistu patsientide kohta. Päringuid võib teha vaid üksikisikute kohta,» lisas ta.</s>
+</p>
+<p>
+<s>Medisoft hakkas Heinmetsa sõnul hiljuti pakkuma ka majutusteenust andmete turvaliseks hoidmiseks.</s>
+<s>«See teenus on väga värske ja kõikide perearstideni pole see veel jõudnud,» lausus ta.</s>
+</p>
+<p>
+<s>Ülenimistuliste päringute võimaldamine Digiloost sõltub seadustest – kui lahendatakse juriidilised küsimused, siis saab hakata ka vastavaid teenuseid looma.</s>
+</p>
+</div>
+</div0>

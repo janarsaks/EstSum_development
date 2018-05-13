@@ -1,0 +1,56 @@
+<div0><head><hi rend="bold">Turvaline internet algab sinust endast</hi></head>
+<p>
+<s><hi rend="bold">Kui koolid kasutavad digivahendeid ebapiisavalt või on need sootuks keelanud, võib see kahjustada noorte hakkamasaamist edasises elus.</hi></s>
+</p>
+<p>
+<s>6. veebruaril, turvalise interneti päeval toimus Tallinnas Telia peamajas konverents, mille üleskutse oli „Loo, suhtle ja jaga hoolivalt – parem internet algab sinust”.</s>
+<s>Konverents oli üks samm võitluses küberkiusamise vastu, mida on meie laste ja noorte hulgas endiselt palju – iga neljas õpilane on puutunud kokku küberkiusamisega ning iga kuues ise kedagi kiusanud.</s>
+</p>
+<p>
+<s>Need andmed on pärit Küberpähkli uuringust, mille TTÜ küberkriminalistika ja küberjulgeoleku keskus eelmise aasta oktoobrist novembrini veebikeskkonnas www.küberpähkel.ee korraldas.</s>
+<s>Vastanuid oli kokku 10581, osales 200 kooli 493 valimis olnud koolist (77 000 õpilast).</s>
+</p>
+<div><head><hi rend="bold">Küberpähkel</hi></head>
+<p>
+<s>Küberpähkli uuringust selgus, et Eesti koolis ei tegelda küberturvalisusega veel piisavalt.</s>
+<s>Nii märkis 24% õpilastest, et koolis räägitakse neile küberohutusest üks kord kuus, 14%, et kord veerandis ja tervelt 25%, et kord aastas.</s>
+<s>11% õpilastest märkis, et neile ei ole koolis küberturvalisusest kordagi räägitud.</s>
+</p>
+<p>
+<s>Uuringust selgus ka, et 70% õpilastest ei tunne mitte ühtegi viirust nime järgi ja 34% ei pea vajalikuks ligipääsu oma nutiseadmele parooliga piirata.</s>
+</p>
+<p>
+<s>Seda õpilased siiski teavad, et internetis ei ole soovitav avaldada oma kodust aadressi ja telefoninumbrit, samuti mitte oma kooli nime.</s>
+<s>Ka reisipiltide üleslaadimist ei pea õpilased mõistlikuks.</s>
+</p>
+<p>
+<s>Küsiti ka õpilaste suhtumist internetimängude poole ööni mängimisse.</s>
+<s>88% vastanutest arvas, et tuleb õigel ajal magama minna, ent 38% leidis, et ema või isa võiksid klassikaaslaste vanematele helistada, et need oma lapsed magama paneksid.</s>
+<s>Kui internetisõber soovitab õpilasel kinnisilmi trepist alla minna, pööraks enamik vastanutest selle naljaks.</s>
+<s>Uurijad viitasid selle küsimusega meedias tähelepanu pälvinud suitsiidmängudele „Sinivaal” ja „Klaasikillud”.</s>
+</p>
+<p>
+<s>Paraku selgus, et 58% vastanud õpilastest ei tohi ainetunnis nutiseadet kasutada (Harjumaal 54% ja Tartumaal 65%).</s>
+<s>Paljudes koolides ei lubata nutitelefoni kasutada ka vahetunni ajal.</s>
+<s>Uuringu autorid märgivad, et kui koolid ei kasuta digivahendeid piisavas mahus või on selle sootuks keelanud, võivad nad kahjustada noorte hakkamasaamist elus ja kõigutada nende usku e-Eesti arengusse.</s>
+</p>
+<p>
+<s>Uuringu autorid soovitavad koolidel suurendada informaatikaringide ja ainetundide mahtu, eriti suuremates koolides ja vanemates klassides, ning rakendada ellu uus IKT-õppekava.</s>
+</p>
+</div>
+<div><head><hi rend="bold">Nutitund igasse kooli</hi></head>
+<p>
+<s>Konverentsil tehti kokkuvõte ka projektist „Nutitund igasse kooli!”.</s>
+<s>Projekt toimus 1. septembrist 2016 kuni 3. veebruarini 2018 ning pühendati Eesti Vabariigi 100. aastapäevale.</s>
+<s>Projekti algataja ja eestvedaja oli Birgy Lorenz, Pelgulinna gümnaasiumi IT-arendusjuht ja õpetaja, Eesti informaatikaõpetajate seltsi juhatuse liige ning Tallinna ülikooli nuti- ja digiturbe lektor.</s>
+</p>
+<p>
+<s>Projektis osales 269 asutust, kes on teinud 3278 nutitundi.</s>
+<s>Eriti aktiivselt osales kuus õppeasutust: Tallinna Kesklinna vene gümnaasium (250 postitust), Põlva gümnaasium (200), Tallinna Kristiine gümnaasium (155), Antsla gümnaasium (150); Tallinna Liikuri lasteaed (127) ja Tartu kutsehariduskeskus (120).</s>
+</p>
+<p>
+<s>Välja jagati 200 auhinda väärtuses 30 000 eurot.</s>
+<s>Projekti peatoetaja oli Telia Eesti ning haridus- ja teadusministeerium, teised toetajad olid HITSA, TeBo õpiveeb, Avita kirjastus, Foxcademy, Microsoft Eesti, Targalt Internetis SIC, Tallinna ülikooli digiturbe labor, Eesti 2.0, Huvitav Kool, Loquiz, 360.ee, eTwinning, Droon.ee, Insplay, Eesti teadusagentuur, Tallinna haridusamet, Tartu linnavalitsus, Tallinna tehnikaülikool.</s>
+</p>
+</div>
+</div0>
