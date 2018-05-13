@@ -2,65 +2,79 @@ import sys
 import re
 import estnltk
 
-PROTSENT = 0.3 #mitu protsenti sisukokkuvõtja ekstraktib
-POSSC = 0.2	#positsiooniskoori osakaal
-FORSC = 0.3	#formaadiskoori osakaal
-WRDSC = 0.5	#sõnade sageduse osakaal
+PROTSENT = 0.3
 
-collect = 0	#lipuke
+# lipuke
+collect = 0
 article = {}
 sentence = {}
-parnr = 0	#lõigu nr
-divnr = 0	#divi nr
+
+# lõigu nr
+parnr = 0
+# divi nr
+divnr = 0
 keywords = []
 words = {}
 
 
-def init_article():
+# Meetod, mis algväärtustab analüüsiks vajalikud muutujad
+def initiate_variables():
     global article
     global parnr
     global divnr
     global words
     article = {"wcount": 0,
-               "scount": 0,	#laused
-              "pcount": 0,	#lõigud
-              "divcount": 0,	#divid
-              "title": "",	#pealkiri
-              "tlength": 0,	#pikkus
-              "body": [],	#artikli sisu
-              "sort": []}	#sorteeritult
+               # laused
+               "scount": 0,
+               # lõigud
+               "pcount": 0,
+               # divid
+               "divcount": 0,
+               # pealkiri
+               "title": "",
+               # pikkus
+               "tlength": 0,
+               # artikli sisu
+               "body": [],
+               # sorteeritud artikli sisu
+               "sort": []}
     parnr = 0
     divnr = 0
     words = {}
 
 
-def tiitel(title):
+# Meetod, mis annab sisendfaili pealkirja sõnadele kõrgema algväärtuse
+# Sisend: sisendfaili märgendatud pealkiri
+def analyze_title(title):
     tc = 0
     article["title"] = title
     article["scount"] += 1
-    rida = title
-    rida = re.sub("<.*?>", "", rida)
 
-    tekst = estnltk.Text(re.sub("[\s,.!?;:\xAB\xBB\-\"()]+", " ", rida))
+    # eemalda märgendid
+    detagged_title = re.sub("<.*?>", "", title)
 
-    tykid = tekst.lemmas
+    # jaga sõnadeks
+    title_words = estnltk.Text(re.sub("[\s,.!?;:\xAB\xBB\-\"()„’́'“«»]+", " ", detagged_title))
 
-    for elem in tykid:
-        if len(elem) > 0:
-            if elem.lower() not in words:
-                words[elem.lower()] = 0
+    title_lemmas = title_words.lemmas
 
-            words[elem.lower()] += 5
+    for lemma in title_lemmas:
+        if len(lemma) > 0:
+
+            if lemma.lower() not in words:
+                words[lemma.lower()] = 0
+
+            words[lemma.lower()] += 5
             tc += 1
+
     article["tlength"] = tc
-    article["wcount"] += tc #article["tlength"]
+    article["wcount"] += tc
 
 
-def put_line(line):
+def analyze_line(line):
     global sentence
     global parnr
     global divnr
-
 
     if bool(re.search("<p>", line)):
         article["pcount"] += 1
@@ -70,7 +84,8 @@ def put_line(line):
     if bool(re.search('</p>', line)) or bool(re.search("</div", line)):
         return
 
-    sentence = {"wcount": 0,  # init lause
+    # lause informatsioon
+    sentence = {"wcount": 0,
                 "parnr": 0,
                 "divnr": 0,
                 "subhead": 0,
@@ -91,7 +106,7 @@ def put_line(line):
         article["pcount"] += 1
         parnr += 1
 
-        #line = line.replace("<div\d[^>]*><head>(.*)</head>", "") ####??????????????????????????????????????????????
+        # eemaldame märgendused
         line = re.sub("<.*?>", "", line)
 
     if bool(re.search("<bibl>", line)):
@@ -103,124 +118,145 @@ def put_line(line):
     sentence["content"] = line
     sentence["parnr"] = parnr
     sentence["divnr"] = divnr
+    # eemaldame märgendid
     line = re.sub("<.*?>", "", line)
-    line = re.sub("[„’́'“]", "", line)
-    tekst = estnltk.Text(re.sub("[\s,.!?;:\xAB\xBB\-\"()]+", " ", line))
+    # jagame sõnadeks
+    line_words = estnltk.Text(re.sub("[\s,.!?;:\xAB\xBB\-\"()„’́'“«»]+", " ", line))
 
-    tykid = tekst.lemmas
-    #print(len(tykid))
-    #print(tykid)
-    sentence["wcount"] += len(tykid)
+    line_lemmas = line_words.lemmas
+
+    sentence["wcount"] += len(line_lemmas)
     weight = 1
     if sentence["subhead"] > 0:
         weight += 1
-    for elem in tykid:
-        ele = elem.lower()
-        if ele.isalpha():
 
-            if ele not in words:
-                words[ele] = 0
+    for lemma in line_lemmas:
+        lemma = lemma.lower()
+        if lemma.isalpha():
 
-            words[ele] += weight
+            if lemma not in words:
+                words[lemma] = 0
 
-        #else:
-        #    print(elem)
+            words[lemma] += weight
+
     body = article["body"]
     body.append(sentence)
     article["body"] = body
     article["wcount"] += sentence["wcount"]
 
 
+# Kokkuvõttete jaoks lausete valimine ja printime
 def print_annotation():
-    summlength = calc_sum_length(article["wcount"])
-    lipp = False
+    sum_length = calc_sum_length(article["wcount"])
+    flag = False
     i = 1
-    score()
-    sc = min_score(summlength)
+    # Määrame lausetele kaalud
+    weigh_sentences()
+    sc = min_score(sum_length)
     a = 0
     lastpar = 0
     actuallength = article["tlength"]
-    #print("##########################")
+
+    print("##########################")
+
     for elem in article["body"]:
-        if elem["score"] + 0.00001 >= sc and actuallength <= summlength:
+        # valime sobivaid laused
+        if elem["score"] + 0.00001 >= sc and actuallength <= sum_length:
             if elem["parnr"] > lastpar:
-                if lipp:
-                    #print("</p>\n<p>\n")
-                    a+=1
+                if flag:
+                    print("</p>\n<p>\n")
+                    a += 1
                 else:
-                    #print("<p>\n")
-                    a-=1
+                    print("<p>\n")
+                    a -= 1
                 lastpar = elem["parnr"]
 
+            print("{0}. p={1} f={2} w={3} s={4}".format(i, elem["possc"], elem["forsc"], elem["wrdsc"], elem["score"]),
+                  end="")
 
-
-            #print("{0}. p={1} f={2} w={3} s={4}".format(i, elem["possc"], elem["forsc"], elem["wrdsc"], elem["score"]), end="")
-
-            print(str(elem["wcount"])+"\t"+elem["content"])
-            #print(elem["content"])
+            print(elem["content"])
             actuallength += elem["wcount"]
-            lipp = True
+            flag = True
 
         i += 1
 
-    #print("#########################")
-    #print("Kokkuvõte koosneb " + str(actuallength) + " sõnast.")
-    #print("Plaaniti " + str(summlength) + " sõna.")
-    #print("Artiklis oli " + str(article["wcount"]))
-    #print("10 võtmesõna: ", end=" ")
+    print("#########################")
+    print("Kokkuvõte koosneb " + str(actuallength) + " sõnast.")
+    print("Plaaniti " + str(sum_length) + " sõna.")
+    print("Artiklis oli " + str(article["wcount"]))
+    print("10 võtmesõna: ", end=" ")
 
-    #for i in range(10):
-    #    print(keywords[i], end=" ")
+    for i in range(10):
+        print(keywords[i], end=" ")
 
 
-def score():
+# Meetoid, mis määrab lausetele kaalu
+def weigh_sentences():
+    # Leiame laustele positsiooni, formaadi ja sõnasageduse skoori
     position_based_score()
-    #for ele in article["body"]:
-    #    print(ele["content"], end=" ")
-    #    print(ele["possc"])
     format_based_score()
     word_based_score()
 
-    for elem in article["body"]:
-        if elem["subhead"] > 0:
-            elem["score"] = 0
+    # Arvutame laustele kaalud
+    for unweigheted_sentence in article["body"]:
+        if unweigheted_sentence["subhead"] > 0:
+            unweigheted_sentence["score"] = 0
         else:
-            elem["score"] = POSSC * elem["possc"] + FORSC * elem["forsc"] + WRDSC * elem["wrdsc"]
+            unweigheted_sentence["score"] = POSSC * unweigheted_sentence["possc"] + FORSC * unweigheted_sentence[
+                "forsc"] + WRDSC * unweigheted_sentence["wrdsc"]
 
 
+# Lausetele positsiooniskoori määramine
 def position_based_score():
-    i = 1 # number of sentence in the article
-    j = 1 # number of sentence in the paragraph
-    k = 1 # number of sentence in div
-    lastparnr = 0 # last observed paragraph number
-    lastdivnr = -1 # last observed division number
+    sentencenr_in_article = 1
+    sentencenr_in_paragraph = 1
+    sentencenr_in_div = 1
 
+    # viimane nähtud lõigu nr
+    lastparnr = 0
+    # viimane nähtud divi nr
+    lastdivnr = -1
+
+    # iga lause läbi vaatamine
     for elem in article["body"]:
+
         if elem["parnr"] > lastparnr:
             lastparnr = elem["parnr"]
-            j = 1
+            sentencenr_in_paragraph = 1
+
         if elem["divnr"] > lastdivnr:
             lastdivnr = elem["divnr"]
-            k = 1
-        if i == 1 and "Pildi allkiri" not in elem["content"]:
+            sentencenr_in_div = 1
+
+        if sentencenr_in_article == 1 and "Pildi allkiri" not in elem["content"]:
             elem["possc"] += 20
-        if j == 1 and elem["subhead"] == 0:
+
+        if sentencenr_in_paragraph == 1 and elem["subhead"] == 0:
             elem["possc"] += 5
-        if k == 2 and i != 2:
+
+        if sentencenr_in_div == 2 and sentencenr_in_article != 2:
             elem["possc"] += 5
-        if i == 2:
+
+        if sentencenr_in_article == 2:
             elem["possc"] += 5
-        if j == 2:
+
+        if sentencenr_in_paragraph == 2:
             elem["possc"] += 2
-        if j == 3:
+
+        if sentencenr_in_paragraph == 3:
             elem["possc"] += 1
 
-        i += 1
-        j += 1
-        k += 1
-    norm_score("possc")
+        sentencenr_in_article += 1
+        sentencenr_in_paragraph += 1
+        sentencenr_in_div += 1
 
-def norm_score(score_type):
+    # positsiooniskoori normaliseerimine
+    normalize_score("possc")
+
+
+# Skooride normaliseerimne
+# Sisend: String skooritüübist
+def normalize_score(score_type):
     total = 0.0
     for elem in article["body"]:
         total += elem[score_type]
@@ -231,9 +267,9 @@ def norm_score(score_type):
         elem[score_type] = round(elem[score_type] * 100 / total, 6)
 
 
-
+# Laustele formaadiskoori määramine
 def format_based_score():
-
+    # iga lause läbivaatamine
     for elem in article["body"]:
         elem["forsc"] = 5
         content = elem["content"]
@@ -245,7 +281,7 @@ def format_based_score():
             elem["forsc"] -= 13
         if bool(re.search("[!?]+", content)):
             elem["forsc"] -= 5
-        if bool(re.search('"', content)):
+        if bool(re.search('[„“«»"]', content)):
             elem["forsc"] -= 4
         if bool(re.search("[!?]+\"", content)):
             elem["forsc"] -= 13
@@ -265,95 +301,102 @@ def format_based_score():
         if elem["wcount"] <= 3:
             elem["forsc"] = 0
 
-    norm_score("forsc")
+    # formaadiskoori normaliseerimine
+    normalize_score("forsc")
 
 
+# Laustele sõnasageduse põhise skoori määramine
 def word_based_score():
-
     norm_word_weights()
     for elem in article["body"]:
-        rida = elem["content"]
-        rida = re.sub("<.*?>", "", rida)
+        content = elem["content"]
+        # eemaldame märgendid
+        content = re.sub("<.*?>", "", content)
+        # jagame sõnadeks
+        content_words = estnltk.Text(re.sub("[\s,.!?;:\xAB\xBB\-\"()„’́'“«»]+", " ", content))
+        # lemmastame
+        content_lemmas = content_words.lemmas
 
-        tekst = estnltk.Text(re.sub("[\s,.!?;:\xAB\xBB\-\"()]+", " ", rida))
+        for lemma in content_lemmas:
 
-        abi = tekst.lemmas
-
-        for el in abi:
-
-            el = el.lower()
-            if el in words:
-                elem["wrdsc"] += words[el]
-
+            lemma = lemma.lower()
+            if lemma in words:
+                elem["wrdsc"] += words[lemma]
 
         if elem["wcount"] != 0:
             elem["wrdsc"] /= elem["wcount"]
         else:
             elem["wrdsc"] = 0
 
+    # normaliseerime lausete sõnasageduse põhise skoori
+    normalize_score("wrdsc")
 
-    norm_score("wrdsc")
 
-
+# Muudame sõnade skoori vastavalt, kas sõna sagedane või tegemist stoppsõnaga
+# Leiame 10 tähtsamat võtmesõna
 def norm_word_weights():
-    with open('sagedusedlemma.txt', encoding="utf8") as f:
+    with open('lemmasagedused.txt', encoding="utf-8") as f:
         lines = f.readlines()
-    f.close()
+    # sagedased lemmad
+    freq_lemmas = {}
 
-    nwords = {}
-    for rida in lines:
-        tykid = estnltk.Text(rida).lemmas
+    for freq_lemma in lines:
+        lemma_and_freq = freq_lemma.split("\t")
 
-        if rida.startswith("m/s"):
-            tykid = rida.split()
-        if tykid[0].lower() not in nwords:
+        if lemma_and_freq[0].lower() not in freq_lemmas:
+            # lisa sagedaste lemmade sageudsed
+            freq_lemmas[lemma_and_freq[0].lower()] = float(lemma_and_freq[1])
 
-            nwords[tykid[0].lower()] = float(tykid[1])
-
-    with open('blacklistlemma.txt', encoding="utf8") as f:
+    with open('stoppsonad.txt', encoding="utf-8") as f:
         lines = f.readlines()
-    f.close()
-    blacklist = {}
-    #print(lines)
-    for rida in lines:
-        rida = estnltk.Text(rida).lemmas[0]
-        if rida not in blacklist:
-            blacklist[rida] = 0
 
-        blacklist[rida] += 1
+    # stoppsõnad
+    stopwords = {}
 
+    for stopword in lines:
 
+        if stopword not in stopwords:
+            stopwords[stopword] = 0
+
+        stopwords[stopword] += 1
 
     global words
-    x = 10000/article["wcount"]
+    x = 10000 / article["wcount"]
+
+    # Muudame sõna skoori 0, kui tegemist on stoppsõnaga
+    # Vähendame sõna sagedust, kui sagedane
     for word in words:
 
-        if word in blacklist:
+        if word in stopwords:
             words[word] = 0
             continue
         if bool(re.search("\s+", word)):
             words[word] = 0
             continue
         words[word] = round(words[word] * x, 2)
-        if word in nwords:
-            if words[word] - nwords[word] > 0:
-                words[word] -= nwords[word]
+        if word in freq_lemmas:
+            if words[word] - freq_lemmas[word] > 0:
+                words[word] -= freq_lemmas[word]
             else:
                 words[word] = 0
 
+    # Leiame võtmesõnad
     global keywords
     keywords = sorted(words, key=words.get, reverse=True)
 
 
-def min_score(a):
-    sl = a
+# Meetod, mis arutab miinimum skoori
+# Sisend: kokkuvõtte sihtpikkust
+# Väljund: miinimum lause kaal
+def min_score(summary_length):
+    sl = summary_length
     sl -= article["tlength"]
-
     sl += 10
+
     if sl < 0:
         return 10000
 
-    min = 10000
+    minimum = 10000
     scores = {}
 
     for elem in article["body"]:
@@ -365,80 +408,59 @@ def min_score(a):
     for elem in sorted(scores.keys(), reverse=True):
 
         if scores[elem] < sl:
-            min = elem
+            minimum = elem
             sl -= scores[elem]
         else:
             break
 
-    #print("Min score. " + str(min))
+    print("Min score. " + str(minimum))
 
-    return min
-
-
-def calc_sum_length(a):
-    return int(PROTSENT * a)
+    return minimum
 
 
+# Arvuta kokkuvõtte sihtpikkus
+# Sisend: sõnade arv artiklis
+# Väljund: kokkuvõtte sihtpikkus
+def calc_sum_length(words_in_article):
+    return int(PROTSENT * words_in_article)
 
 
+if __name__ == '__main__':
 
+    # Märgendatud faili asukoht
+    tagged_file_loc = sys.argv[1]
 
-#if len(sys.args) > 0:
-#    PROTSENT = sys.args[0] / 100.0
-#    print(PROTSENT)
-#else:
-#    raise Exception('Jama')
+    # Positsiooniskoori, formaadipõhise skoori ja sõnasageduste põhise skoori osakaalud lause kaalu valemis
+    POSSC = float(sys.argv[2]) if len(sys.argv) > 2 else 0.4
+    FORSC = float(sys.argv[3]) if len(sys.argv) > 3 else 0.4
+    WRDSC = float(sys.argv[4]) if len(sys.argv) > 4 else 0.2
 
-#PROTSENT = 0.64
+    with open(tagged_file_loc, encoding="utf-8-sig") as tagged_file:
+        tagged_file_lines = tagged_file.readlines()
 
-with open('sirp5.txt', encoding="utf8") as f:
-    lines = f.readlines()
-f.close()
+    for tagged_file_line in tagged_file_lines:
+        tagged_file_line = tagged_file_line.strip()
 
+        # Artikli pealkiri
+        if bool(re.search("<div0", tagged_file_line)):
+            # Algväärtustamine
+            initiate_variables()
 
-for rawline in lines:
-    rawline = rawline.strip()
+            # Pealkirja analüüs
+            analyze_title(tagged_file_line)
 
+            # Hakka lauseid koguma
+            collect = 1
+            continue
 
-    if bool(re.search("<div0", rawline)):  # artikli pealkiri
-        init_article()  # algväärtustamine
+        # Artikli lõpp
+        if bool(re.search("</div0", tagged_file_line)):
+            collect = 0
+            # Trüki kokkuvõte
+            print_annotation()
+            continue
 
-        tiitel(rawline)  # pealkirjast sõnade uurimine #kuidas saada?
-        print()
-        collect = 1  # hakka lauseid koguma
-        continue
-
-    if bool(re.search("</div0", rawline)):  # artikli lõpp
-        collect = 0
-
-        print_annotation()  # trüki kokkuvõte
-        print()
-        continue
-
-    if collect != 0:  # artikli sees
-        put_line(rawline)  # töötle rida   ###kuidas rida saada
-        continue
-
-#print(article)
-#print(words)
-#print(keywords)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        # Artikli sees
+        if collect != 0:
+            # Rea töötlemine
+            analyze_line(tagged_file_line)
