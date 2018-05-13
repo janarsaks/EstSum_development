@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67f8f223-1dcc-4bd8-be61-2637e0c2b75d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus1/arvamus1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus1/arvamus1_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus2/arvamus2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus2/arvamus2_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus3/arvamus3.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus3/arvamus3_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus4/arvamus4.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus4/arvamus4_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus5/arvamus5.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus5/arvamus5_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis2/uudis2.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis2/uudis2_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis3/uudis3.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis3/uudis3_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis4/uudis4.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis4/uudis4_margendatud.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis5/uudis5.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis5/uudis5_margendatud.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sagedusedlemma.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,10 +14,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="keywords_lemma.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="keywords_lemma.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/keywords_lemma.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2432">
+            <state relative-caret-position="2126">
               <caret line="418" column="57" lean-forward="false" selection-start-line="418" selection-start-column="57" selection-end-line="418" selection-end-column="57" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
@@ -45,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="uudis1.txt" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1.txt">
+      <file leaf-file-name="sagedusedlemma.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sagedusedlemma.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -109,24 +90,6 @@
             </path>
             <path>
               <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
-              <item name="arenduskorpus" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
-              <item name="arenduskorpus" type="462c0819:PsiDirectoryNode" />
-              <item name="arvamused" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
-              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
-              <item name="arenduskorpus" type="462c0819:PsiDirectoryNode" />
-              <item name="arvamused" type="462c0819:PsiDirectoryNode" />
-              <item name="arvamus1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -175,15 +138,24 @@
       <option name="presentableId" value="Default" />
       <updated>1524076819886</updated>
     </task>
+    <task id="LOCAL-00001" summary="closes #3 Added development and testcorpora">
+      <created>1526230748018</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1526230748018</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25321338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -208,6 +180,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="closes #3 Added development and testcorpora" />
+    <option name="LAST_COMMIT_MESSAGE" value="closes #3 Added development and testcorpora" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -223,21 +199,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/keywords_lemma.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2432">
-          <caret line="418" column="57" lean-forward="false" selection-start-line="418" selection-start-column="57" selection-end-line="418" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sagedusedlemma.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keywords_lemma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2126">
+          <caret line="418" column="57" lean-forward="false" selection-start-line="418" selection-start-column="57" selection-end-line="418" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
