@@ -2,7 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67f8f223-1dcc-4bd8-be61-2637e0c2b75d" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/sagedusedlemma.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus1/arvamus1_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus10/arvamus10_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus2/arvamus2_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus3/arvamus3_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus4/arvamus4_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus5/arvamus5_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus6/arvamus6_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus7/arvamus7_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus8/arvamus8_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus9/arvamus9_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis1/uudis1_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis10/uudis10_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis2/uudis2_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis3/uudis3_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis4/uudis4_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis5/uudis5_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis6/uudis6_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis7/uudis7_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis8/uudis8_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/arenduskorpus/uudised/uudis9/uudis9_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus1/arvamus1_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus2/arvamus2_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus3/arvamus3_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus4/arvamus4_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/arvamused/arvamus5/arvamus5_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis2/uudis2_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis3/uudis3_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis4/uudis4_alg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/testkorpus/uudised/uudis5/uudis5_alg.txt" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,30 +43,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="keywords_lemma.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/keywords_lemma.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2126">
-              <caret line="418" column="57" lean-forward="false" selection-start-line="418" selection-start-column="57" selection-end-line="418" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sagedusedlemma.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sagedusedlemma.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -45,6 +52,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>¬</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -52,6 +64,36 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/keywords_lemma.py" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus3/arvamus3_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus4/arvamus4_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus5/arvamus5_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus7/arvamus7_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus10/arvamus10_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus9/arvamus9_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus8/arvamus8_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus2/arvamus2_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis9/uudis9_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis7/uudis7_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis10/uudis10_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis6/uudis6_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis4/uudis4_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis3/uudis3_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis2/uudis2_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis1/uudis1_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/arvamused/arvamus3/arvamus3_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/arvamused/arvamus5/arvamus5_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/arvamused/arvamus4/arvamus4_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/uudised/uudis2/uudis2_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/uudised/uudis3/uudis3_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/uudised/uudis4/uudis4_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/uudised/uudis5/uudis5_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus1/arvamus1_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/arvamused/arvamus6/arvamus6_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis8/uudis8_alg.txt" />
+        <option value="$PROJECT_DIR$/arenduskorpus/uudised/uudis5/uudis5_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/arvamused/arvamus1/arvamus1_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/arvamused/arvamus2/arvamus2_alg.txt" />
+        <option value="$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1_alg.txt" />
       </list>
     </option>
   </component>
@@ -62,8 +104,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="800" />
+    <option name="x" value="413" />
+    <option name="width" value="1189" />
     <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -80,6 +126,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -90,13 +137,58 @@
             </path>
             <path>
               <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
+              <item name="testkorpus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
+              <item name="testkorpus" type="462c0819:PsiDirectoryNode" />
+              <item name="uudised" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
+              <item name="testkorpus" type="462c0819:PsiDirectoryNode" />
+              <item name="uudised" type="462c0819:PsiDirectoryNode" />
+              <item name="uudis1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
+              <item name="testkorpus" type="462c0819:PsiDirectoryNode" />
+              <item name="uudised" type="462c0819:PsiDirectoryNode" />
+              <item name="uudis2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
+              <item name="testkorpus" type="462c0819:PsiDirectoryNode" />
+              <item name="uudised" type="462c0819:PsiDirectoryNode" />
+              <item name="uudis3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
+              <item name="testkorpus" type="462c0819:PsiDirectoryNode" />
+              <item name="uudised" type="462c0819:PsiDirectoryNode" />
+              <item name="uudis4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
+              <item name="EstSum_development" type="462c0819:PsiDirectoryNode" />
+              <item name="testkorpus" type="462c0819:PsiDirectoryNode" />
+              <item name="uudised" type="462c0819:PsiDirectoryNode" />
+              <item name="uudis5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="EstSum_development" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -105,10 +197,14 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\janar\PycharmProjects\EstSum_development" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\janar\PycharmProjects\EstSum_development\testkorpus\uudised\uudis2" />
+      <recent name="C:\Users\janar\PycharmProjects\EstSum_development\testkorpus\uudised\uudis4" />
+      <recent name="C:\Users\janar\PycharmProjects\EstSum_development\testkorpus\uudised\uudis3" />
+      <recent name="C:\Users\janar\PycharmProjects\EstSum_development\testkorpus\uudised\uudis5" />
+      <recent name="C:\Users\janar\PycharmProjects\EstSum_development\testkorpus\uudised\uudis1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\janar\PycharmProjects\EstSum_development" />
     </key>
   </component>
@@ -145,23 +241,45 @@
       <option name="project" value="LOCAL" />
       <updated>1526230748018</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="closes #5 Added a list with frequent lemams">
+      <created>1526230870153</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1526230870153</updated>
+    </task>
+    <task id="LOCAL-00003" summary="#4 Reformated code and changed some file names">
+      <created>1526231182450</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1526231182450</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25321338" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20308483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -182,7 +300,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="closes #3 Added development and testcorpora" />
-    <option name="LAST_COMMIT_MESSAGE" value="closes #3 Added development and testcorpora" />
+    <MESSAGE value="closes #5 Added a list with frequent lemams" />
+    <MESSAGE value="#4 Reformated code and changed some file names" />
+    <option name="LAST_COMMIT_MESSAGE" value="#4 Reformated code and changed some file names" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -199,15 +319,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sagedusedlemma.txt">
+    <entry file="file://$PROJECT_DIR$/lemmasagedused.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -217,11 +329,283 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/keywords_lemma.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2126">
-          <caret line="418" column="57" lean-forward="false" selection-start-line="418" selection-start-column="57" selection-end-line="418" selection-end-column="57" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="28" lean-forward="false" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lemmasagedused.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/keywords_lemma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="349" column="25" lean-forward="false" selection-start-line="349" selection-start-column="25" selection-end-line="349" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus1/arvamus1_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus2/arvamus2_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="697" lean-forward="false" selection-start-line="6" selection-start-column="697" selection-end-line="6" selection-end-column="697" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus3/arvamus3_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="338" lean-forward="false" selection-start-line="14" selection-start-column="338" selection-end-line="14" selection-end-column="338" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus4/arvamus4_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="265" lean-forward="false" selection-start-line="13" selection-start-column="265" selection-end-line="13" selection-end-column="265" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus5/arvamus5_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="458" lean-forward="false" selection-start-line="16" selection-start-column="458" selection-end-line="16" selection-end-column="458" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus6/arvamus6_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="232" lean-forward="false" selection-start-line="14" selection-start-column="232" selection-end-line="14" selection-end-column="232" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus10/arvamus10_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="349" lean-forward="false" selection-start-line="18" selection-start-column="349" selection-end-line="18" selection-end-column="349" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus9/arvamus9_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="574" lean-forward="false" selection-start-line="16" selection-start-column="574" selection-end-line="16" selection-end-column="574" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus8/arvamus8_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="202" lean-forward="false" selection-start-line="25" selection-start-column="202" selection-end-line="25" selection-end-column="202" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/arvamused/arvamus7/arvamus7_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="142" lean-forward="true" selection-start-line="18" selection-start-column="142" selection-end-line="18" selection-end-column="142" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis1/uudis1_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="187" lean-forward="false" selection-start-line="10" selection-start-column="187" selection-end-line="10" selection-end-column="187" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis2/uudis2_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="598" lean-forward="false" selection-start-line="9" selection-start-column="598" selection-end-line="9" selection-end-column="598" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis3/uudis3_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="195" lean-forward="false" selection-start-line="19" selection-start-column="195" selection-end-line="19" selection-end-column="195" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis4/uudis4_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="300" lean-forward="false" selection-start-line="20" selection-start-column="300" selection-end-line="20" selection-end-column="300" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis6/uudis6_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="408" lean-forward="false" selection-start-line="13" selection-start-column="408" selection-end-line="13" selection-end-column="408" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis7/uudis7_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="313" lean-forward="false" selection-start-line="10" selection-start-column="313" selection-end-line="10" selection-end-column="313" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis10/uudis10_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="272" lean-forward="false" selection-start-line="17" selection-start-column="272" selection-end-line="17" selection-end-column="272" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis9/uudis9_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="407" lean-forward="false" selection-start-line="12" selection-start-column="407" selection-end-line="12" selection-end-column="407" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis8/uudis8_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="252" lean-forward="false" selection-start-line="8" selection-start-column="252" selection-end-line="8" selection-end-column="252" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arenduskorpus/uudised/uudis5/uudis5_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/arvamused/arvamus5/arvamus5_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="311" lean-forward="false" selection-start-line="23" selection-start-column="311" selection-end-line="23" selection-end-column="311" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/arvamused/arvamus4/arvamus4_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="103" lean-forward="false" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/arvamused/arvamus3/arvamus3_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="196" lean-forward="false" selection-start-line="14" selection-start-column="196" selection-end-line="14" selection-end-column="196" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/arvamused/arvamus1/arvamus1_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="304" lean-forward="false" selection-start-line="33" selection-start-column="304" selection-end-line="33" selection-end-column="304" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/arvamused/arvamus2/arvamus2_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="36" lean-forward="false" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis5/uudis5_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="225" lean-forward="false" selection-start-line="21" selection-start-column="225" selection-end-line="21" selection-end-column="225" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis4/uudis4_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="344" lean-forward="false" selection-start-line="16" selection-start-column="344" selection-end-line="16" selection-end-column="344" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis3/uudis3_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="156" lean-forward="false" selection-start-line="18" selection-start-column="156" selection-end-line="18" selection-end-column="156" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis2/uudis2_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="41" lean-forward="false" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testkorpus/uudised/uudis1/uudis1_alg.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding />
         </state>
       </provider>
     </entry>

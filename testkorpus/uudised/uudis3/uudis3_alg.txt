@@ -1,0 +1,19 @@
+Perearstid ootavad riiklikku IT-šokki
+Perearstid ootavad tervise infosüsteemide põhjalikku ümberkorraldust, sest praegune süsteem on aeglane ja ebaturvaline.
+«Praktiku jaoks on e-tervis üks suur mädakala. Sisuliselt on see dokumendiarhiiv, mitte aga infosüsteem. Retseptikeskus on ainuke reaalselt toimiv osa, sest võrreldes muu meditsiinilise infoga on retsept ise olnud väga lihtsakoeline ja juba enne digiajastut hästi struktureeritud asi,» leidis näiteks arst-resident Aivar Soomann.
+Tema hinnangul vajaks tervisevaldkonna riiklik IT-korraldus šokki – reaalset keskset tuhandete kasutajatega infosüsteemi.
+«Ikka on hunnik arendajaid, kes tegutsevad pimeduses, sest ei saa aru, mida neilt oodatakse. Ja siis on hunnik ametnikke, kes lõputult analüüsivad ja pole ikka veel midagi suutnud järeldada,» oli Soomann kriitiline.
+Arst-residendi sõnul tähendab lähteülesanne kõike ning seni on just lähteülesanne olnud «täiesti mööda, sest riigil on kombeks taandada end riiklike ülesannete lahendamisest ja peita oma pea sihtasutustesse». «See on liberaalse riigi tegemata töö tulemus,» arvas ta.
+Perearst: IT väljub meie kompetentsist
+Mis puutub konkreetsemalt perearstidesse, siis riik ei ole neile seni ette öelnud, milliseid programme võiksid nad salajaste isikuandmete haldamiseks kasutada ning kus neid andmeid hoida. Valdavalt kasutavad perearstid ettevõtte Medisoft loodud programmi Perearst2 ja andmeid hoitakse perearstide endi hangitud serverites.
+Sellises olukorras kasutatakse väga erineval tasemel andmete turvalisuse tagamise meetmeid. Mis puutub programmidesse, siis valmistab arstidele peavalu info liikumine andmebaaside vahel.
+Näiteks Rapla perearstikeskuse perearst Kadri Luga ütles, et ka nende tööprogramm on Perearst2 ning programm koos andmetega asub perearstikeskuses olevas serveris. Tema sõnul tehakse neist andmetest regulaarselt koopiaid välisele andmekandjale, kuid arstid ise sellega ei tegele.
+«Tehniline pool väljub paratamatult perearstide kompetentsist, kuid meil on tegevuse algusest saadik olnud sama partner, kes meie IT-süsteeme jälgib ja meid oma valdkonna uuemate uudistega kursis hoiab,» rääkis Luga.
+Mis puutub andmete vahetamisse infosüsteemide vahel, siis saab Rapla perearsti sõnul riiklikku Digilukku saata epikriise ükshaaval või mitu korraga ning saatmine ei võta väga palju aega.
+«Rohkem aega võtab Digiloost vajalike andmete leidmine, kui patsient on juba vastuvõtul ning vastuvõtu käigus selgub, et ta on käinud mõnes teises asutuses uuringutel, arsti vastuvõtul või pöördunud mingil põhjusel EMOsse. Teistes raviasutustes käikude kohta eraldi teavet perearsti töölauale ei tule,» ütles perearst.
+Tarkvaraettevõte: mitu lahendust on seaduste taga
+Perearstidele andmetöötlusprogrammi loova Medisofti juhi Jako Heinmetsa sõnul võib andmete liikumine Perearst2st Digilukku olla tõesti aeglane.
+Protsessi alustamine ise aga keeruline pole. «Andmete automaatne liikumine on lahendatud nii, et päeva lõpus pakub Perearst2 arstile välja kõik lõpetatud ravilood, mida saata Digilukku. Saatmiseks tuleb arstil teha üks nupuvajutus, mille järel hakkab programm epikriise Digilukku edastama,» ütles Heinmets ja lisas, et epikriisi saab arst saata Digilukku ka kohe, kui lõpetab patsiendi raviloo.
+See, kas perearst võiks kohe hommikul näha oma nimistu patsientide visiite kiirabisse või eriarstide juurde, on Medisofti juhi sõnul juriidiline küsimus. «Täna pole olemas sellist võimalust (teenust), et perearst saaks teha koondpäringu kõikide nimistu patsientide kohta. Päringuid võib teha vaid üksikisikute kohta,» lisas ta.
+Medisoft hakkas Heinmetsa sõnul hiljuti pakkuma ka majutusteenust andmete turvaliseks hoidmiseks. «See teenus on väga värske ja kõikide perearstideni pole see veel jõudnud,» lausus ta.
+Ülenimistuliste päringute võimaldamine Digiloost sõltub seadustest – kui lahendatakse juriidilised küsimused, siis saab hakata ka vastavaid teenuseid looma.
