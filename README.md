@@ -1,4 +1,4 @@
-# EstSum_development
+# EstSum 2.0
 
 **Kasutatud tarkvara:**
 1) Python v3.5
