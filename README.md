@@ -1,11 +1,11 @@
 # EstSum_development
 
-Kasutatud tarkvara:
+**Kasutatud tarkvara:**
 1) Python v3.5
 2) EstNLKT v1.4.1.1
 
 
-Sisendfaili formaat:
+**Sisendfaili formaat:**
 
 \<div0>\<head>\<hi rend="bold">Paksus kirjas pealkiri\</hi>\</head>  
 \<p>  
@@ -20,7 +20,7 @@ Sisendfaili formaat:
 \</div>  
 \</div0>  
 
-Kasutamine käsureaga:
+**Kasutamine käsureaga:**
 
 1) python {märgendatud_fail} {positsiooni_skoori_osakaal} {formaadi_skoori_osakaal} {võtmesõnade_skoori_osakaal}
 
