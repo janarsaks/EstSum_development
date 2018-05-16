@@ -20,4 +20,10 @@ Sisendfaili formaat:
 </div>
 </div0>
 
+Kasutamine käsureaga:
 
+1) python {märgendatud_fail} {positsiooni_skoori_osakaal} {formaadi_skoori_osakaal} {võtmesõnade_skoori_osakaal}
+
+2) python {märgendatud_fail}
+
+Kui kasutada teist varianti, siis parameetrite vaikeväärtused on 0.4, 0.4 ja 0.2.
