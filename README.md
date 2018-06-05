@@ -18,7 +18,9 @@
 \<s>\<hi rend="italic">Kaldkirjas lause.\</hi>\</s>  
 \</p>  
 \</div>  
-\</div0>  
+\</div0>
+
+[Sisendfaili näide](https://github.com/janarsaks/EstSum_development/blob/master/n%C3%A4ide_sisendfailist.txt)
 
 **Kasutamine käsureaga:**
 
